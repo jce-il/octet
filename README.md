@@ -27,7 +27,6 @@
 <P class="p7 ft6">Angles maybe formed between groups of atoms in a molecule, between <NOBR>sub-systems</NOBR> such as the body, a wing or an engine of an airplane, the axes of manipulators of movable robots. Angles are measure by real numbers having units of radians or degrees. Angles may be planar <NOBR>(2-D)</NOBR> or spatial <NOBR>(3-D).</NOBR> Angles are varied by increments between say zero to 2*<SPAN class="ft10">π </SPAN>radians.</P>
 <P class="p8 ft9"><SPAN class="ft7">2.3</SPAN><SPAN class="ft8">DISCRETE COMPOSITION</SPAN></P>
 <P class="p9 ft6">Discrete composition is a finite and discrete set of symbols in a given domain. It maybe the elementary particles in a nuclear reaction, atoms or isotopes in a chemical or biochemical reaction, bases or <NOBR>amino-acids</NOBR> in genetics and/or biology, keywords in textual search, symbols of countries in a geographical context or Internet URL context. Discrete composition is varied by discrete randomizing symbol choices.</P>
-<P class="p10 ft11">1</P>
 </DIV>
 <!-- #include virtual="/convert-pdf-to-html/includes/pdf-to-word-body-tag-between-content.htm" --><DIV id="page_2">
 <DIV id="p2dimg1">
@@ -44,7 +43,6 @@
 <P class="p7 ft6">Spatial grids divide a space of given dimensions (say <NOBR>3-D)</NOBR> and/or form (say a cube, cylinder or any other form) into discrete “finite elements”. On e should also provide relations among the elements, such as who are the neighbors of a given element. Boundary elements may have assigned neighbors in a periodical manner. Finite elements are varied by adding/deleting elements, distorting the whole form, etc.</P>
 <P class="p17 ft9"><SPAN class="ft7">2.6</SPAN><SPAN class="ft8">INTENSIVE CONTINUOUS QUANTITIES</SPAN></P>
 <P class="p7 ft6">Intensive quantities have a value that is independent of the size of a body. For instance, the “temperature” of the human body is generally around 37<SPAN class="ft14">o </SPAN>Celsius, independent of the size of the body, whether a child or an adult. Another example of an intensive quantity is the density of a material. Intensive continuous quantities are represented by real numbers and are varied in increments between a lower and an upper bound.</P>
-<P class="p18 ft11">2</P>
 </DIV>
 <DIV id="page_3">
 
@@ -57,7 +55,6 @@
 <P class="p21 ft6">Octet should be implemented by using any set of modules – for computation and visual display – written in various programming languages, as available in the internet. The overall “wrapper” of these modules should be programmed in Python, to fit the course contents.</P>
 <P class="p5 ft4">4. TIME SCHEDULE & TASKS DIVISION</P>
 <P class="p22 ft6">The Octet project should take one month to develop and test. Each of the 8 students should take one of the above degrees of freedom, design and implement, in a way that there is a common interface between the different degrees of freedom.</P>
-<P class="p23 ft11">3</P>
 </DIV>
 </BODY>
 </HTML>
