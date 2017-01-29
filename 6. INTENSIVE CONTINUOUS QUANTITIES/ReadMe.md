@@ -1,2 +1,2 @@
 INTENSIVE CONTINUOUS QUANTITIES - ICQ Class
-Katya Denef
+ by Katya Denef
