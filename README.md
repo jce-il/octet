@@ -1,72 +1,35 @@
 <div id="page_1">
 
-<table cellpadding="0" cellspacing="0" class="t0">
-
-<tbody>
-
-<tr>
-
-<td class="tr0 td0"></td>
-
-<td class="tr0 td1">
-
 The Octet Project: Summary & PLAN
 
-</td>
-
-</tr>
-
-<tr>
-
-<td class="tr1 td0">
+ |
+| 
 
 Date:
 
-</td>
-
-<td class="tr1 td1">
+ | 
 
 26/Dec/2016
 
-</td>
-
-</tr>
-
-<tr>
-
-<td class="tr2 td0">
+ |
+| 
 
 Update:
 
-</td>
-
-<td class="tr2 td1">
+ | 
 
 26/Dec/2016
 
-</td>
-
-</tr>
-
-<tr>
-
-<td class="tr3 td0">
+ |
+| 
 
 Proposer:
 
-</td>
-
-<td class="tr3 td1">
+ | 
 
 Prof. Iaakov Exman
 
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+ |
 
 1\. SUMMARY
 
