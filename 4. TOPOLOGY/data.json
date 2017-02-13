@@ -1,0 +1,202 @@
+[
+  {
+    "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943",
+    "data": {
+      "id": "d82aefaef16511e69852e8b1fcf1b188",
+      "idInt": "d82aefaef16511e69852e8b1fcf1b188",
+      "name": "A"
+    },
+    "grabbable": true,
+    "grabbed": false,
+    "group": "nodes",
+    "locked": false,
+    "position": {
+      "x": 0.9,
+      "y": 0.8
+    },
+    "removed": false,
+    "selectabl": false,
+    "selected": false
+  },
+  {
+    "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943",
+    "data": {
+      "id": "d82aefaff16511e69691e8b1fcf1b188",
+      "idInt": "d82aefaff16511e69691e8b1fcf1b188",
+      "name": "B"
+    },
+    "grabbable": true,
+    "grabbed": false,
+    "group": "nodes",
+    "locked": false,
+    "position": {
+      "x": 0.35944113121511345,
+      "y": 0.560619910571307
+    },
+    "removed": false,
+    "selectabl": false,
+    "selected": false
+  },
+  {
+    "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943",
+    "data": {
+      "id": "d82aefb0f16511e68e77e8b1fcf1b188",
+      "idInt": "d82aefb0f16511e68e77e8b1fcf1b188",
+      "name": "C"
+    },
+    "grabbable": true,
+    "grabbed": false,
+    "group": "nodes",
+    "locked": false,
+    "position": {
+      "x": 0.8128171835277778,
+      "y": 0.9
+    },
+    "removed": false,
+    "selectabl": false,
+    "selected": false
+  },
+  {
+    "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943",
+    "data": {
+      "id": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "idInt": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "name": "D"
+    },
+    "grabbable": true,
+    "grabbed": false,
+    "group": "nodes",
+    "locked": false,
+    "position": {
+      "x": 0.1,
+      "y": 0.2
+    },
+    "removed": false,
+    "selectabl": false,
+    "selected": false
+  },
+  {
+    "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943",
+    "data": {
+      "id": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "idInt": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "name": "E"
+    },
+    "grabbable": true,
+    "grabbed": false,
+    "group": "nodes",
+    "locked": false,
+    "position": {
+      "x": 0.1,
+      "y": 0.2
+    },
+    "removed": false,
+    "selectabl": false,
+    "selected": false
+  },
+  {
+    "classes": "",
+    "data": {
+      "group": "path",
+      "id": "NatiIren",
+      "intn": true,
+      "source": "d82aefaef16511e69852e8b1fcf1b188",
+      "target": "d82aefaff16511e69691e8b1fcf1b188",
+      "weight": 0.1
+    },
+    "grabbable": false,
+    "grabbed": false,
+    "group": "edges",
+    "locked": false,
+    "position": [
+
+    ],
+    "removed": false,
+    "selectable": false,
+    "selected": false
+  },
+  {
+    "classes": "",
+    "data": {
+      "group": "path",
+      "id": "NatiRoni",
+      "intn": true,
+      "source": "d82aefaef16511e69852e8b1fcf1b188",
+      "target": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "weight": 0.1
+    },
+    "grabbable": false,
+    "grabbed": false,
+    "group": "edges",
+    "locked": false,
+    "position": [
+
+    ],
+    "removed": false,
+    "selectable": false,
+    "selected": false
+  },
+  {
+    "classes": "",
+    "data": {
+      "group": "path",
+      "id": "RoniRan",
+      "intn": true,
+      "source": "d82aefb1f16511e6a024e8b1fcf1b188",
+      "target": "d82aefb0f16511e68e77e8b1fcf1b188",
+      "weight": 0.1
+    },
+    "grabbable": false,
+    "grabbed": false,
+    "group": "edges",
+    "locked": false,
+    "position": [
+
+    ],
+    "removed": false,
+    "selectable": false,
+    "selected": false
+  },
+  {
+    "classes": "",
+    "data": {
+      "group": "path",
+      "id": "IrenRan",
+      "intn": true,
+      "source": "d82aefaff16511e69691e8b1fcf1b188",
+      "target": "d82aefb0f16511e68e77e8b1fcf1b188",
+      "weight": 0.1
+    },
+    "grabbable": false,
+    "grabbed": false,
+    "group": "edges",
+    "locked": false,
+    "position": [
+
+    ],
+    "removed": false,
+    "selectable": false,
+    "selected": false
+  },
+  {
+    "classes": "",
+    "data": {
+      "group": "path",
+      "id": "NatiRan",
+      "intn": true,
+      "source": "d82aefaef16511e69852e8b1fcf1b188",
+      "target": "d82aefb0f16511e68e77e8b1fcf1b188",
+      "weight": 0.1
+    },
+    "grabbable": false,
+    "grabbed": false,
+    "group": "edges",
+    "locked": false,
+    "position": [
+
+    ],
+    "removed": false,
+    "selectable": false,
+    "selected": false
+  }
+]
