@@ -36,6 +36,19 @@ class DistanceCalculator:
             return vincenty(cord1, cord2).meters
         elif metric_method == 'mile':
             return vincenty(cord1, cord2).miles
+        
+        
+    @staticmethod
+    def astronomical_distance(planet1, planet2):
+        """The astronomical unit (symbol au, or ua) is a unit of length, 
+        roughly the distance from planet1 to planet2."""
+        planets = load('de421.bsp')
+        planet1, planet2 = planets[planet1], planets[planet2]
+        ts = load.timescale()
+        t = ts.now()
+        position = planet1.at(t).observe(planet2)
+        ra, dec, distance = position.radec()
+        return distance.m
 
     
     @staticmethod
@@ -47,12 +60,33 @@ class DistanceCalculator:
         return mol.get_distance(a0, a1)
     
     
-print(DistanceCalculator.euclidean_distance((1,1,1), (4,4,4)))
+    @staticmethod
+    def canberra_distance(u, v):
+        """The Canberra distance is a numerical measure of the 
+        distance between pairs of points in a vector space."""
+        return canberra(u, v)
+    
+    
+    @staticmethod
+    def distance_unweighted_graph(g, vertex1, vertex2): #return number of hops
+        """In the mathematical field of graph theory, the distance between two vertices in a 
+        graph is the number of edges in a shortest path (also called a graph geodesic) connecting them."""
+        return nx.dijkstra_path_length(g, vertex1, vertex2)
 
-newport_ri = (41.49008, -71.312796)
-cleveland_oh = (41.499498, -81.695391)
-print(DistanceCalculator.geographical_distance(newport_ri, cleveland_oh, 'm'))
 
+    @staticmethod
+    def distance_weighted_graph(g, vertex1, vertex2):
+        """Find a path between two vertices (or nodes) in a graph such that
+        the sum of the weights of its constituent edges is minimized."""
+        return nx.dijkstra_path_length(g, vertex1, vertex2, 'distance')
+
+
+    
+print("Euclidean disatance between (1,1,1) and (4,4,4): " + str(DistanceCalculator.euclidean_distance((1,1,1), (4,4,4))))
+
+jerusalem_israel = (31.783333, 35.216667)
+tel_aviv_israel = (32.066667, 34.783333)
+print("Geographical disatance between Jerusalem and Tel-Aviv: " + str(DistanceCalculator.geographical_distance(jerusalem_israel, tel_aviv_israel, 'm')) + "m")
 
 h2o = Atoms(symbols='H2O',
                 positions=[( 0.776070, 0.590459, 0.00000),
@@ -60,4 +94,16 @@ h2o = Atoms(symbols='H2O',
                            (0.000000,  -0.007702,  -0.000001)],
                 pbc=(1,1,1))
     
-print "Bond length: %.4f" % DistanceCalculator.bond_length(h2o, 0, 2)
+print("H2O Bond length: %.4f" % DistanceCalculator.bond_length(h2o, 0, 2))
+
+print("Geographical disatance between Earth and Mars: " + str(DistanceCalculator.astronomical_distance('earth', 'mars')) + "m")
+
+print("Canberra disatance between [1,2,3] and [2,4,6]: " + str(DistanceCalculator.canberra_distance([1,2,3], [2,4,6])))
+
+g = nx.Graph()
+g.add_edge('a', 'b', distance=0.3)
+g.add_edge('a', 'c', distance=0.7)
+print("Unweighted distance between vertex b and vertex c in graph g: " + str(DistanceCalculator.distance_unweighted_graph(g, 'b', 'c')))
+print("Weighted distance between vertex b and vertex c in graph g: " + str(DistanceCalculator.distance_weighted_graph(g, 'b', 'c')))
+
+
