@@ -34,9 +34,3 @@ BondAngle[8][0][8] = ["square antiprismatic",[]]
 BondAngle[9][0][9] = ["tricapped trigonal prismatic",[]]
 #%%
 
-
-
-        
-#%%   P = 4i + 0j + 7k and Q = -2i + j + 3k
-print(AnglesCalculator.BetweenSubSystems([4,0,7],[-2,1,3]))
-print(AnglesCalculator.BetweenAtoms(2,2,4))
