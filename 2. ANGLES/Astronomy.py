@@ -1,5 +1,5 @@
 
-from pysolar.solar import *
+import pysolar.solar
 import datetime
 
 def GetAxialTilt():
@@ -24,14 +24,11 @@ def GetAxialTiltForSolarSystemPlanet(planet):
         return dic[planet]
     return None
 
-def GetSolarPosition(Latitude,Longitude,datetime):
-    if datetime is None:
-        d = datetime.datetime.now()
-    else:
-        d = datetime
-    return (get_altitude(Latitude, Longitude, d),get_azimuth(Latitude, Longitude, d) % 360)
+def GetSolarPosition(Latitude,Longitude,dt):
+    d = dt
+    return (pysolar.solar.get_altitude(Latitude, Longitude, d),pysolar.solar.get_azimuth(Latitude, Longitude, d) % 360)
  
- def GetSolarPositionErrors():
+def GetSolarPositionErrors():
     ret = {}
     Azimuth = {}
     Azimuth["Mean"] =0.00463
