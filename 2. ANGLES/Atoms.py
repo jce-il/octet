@@ -7,7 +7,6 @@
 
 
 #%%
-
 BondAngle = {}
 for r in range(2,10):
     BondAngle[r] = {}
@@ -34,3 +33,9 @@ BondAngle[8][0][8] = ["square antiprismatic",[]]
 BondAngle[9][0][9] = ["tricapped trigonal prismatic",[]]
 #%%
 
+def BetweenAtoms(BoneElectronPair, LonePair,ElectronDomain):
+    if BoneElectronPair in  BondAngle.keys():
+        if LonePair in BondAngle[BoneElectronPair].keys():
+            if ElectronDomain in BondAngle[BoneElectronPair][LonePair]:
+                return BondAngle[BoneElectronPair][LonePair][ElectronDomain]
+    return []
