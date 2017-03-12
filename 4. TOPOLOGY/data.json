@@ -4,7 +4,9 @@
     "data": {
       "id": "d82aefaef16511e69852e8b1fcf1b188",
       "idInt": "d82aefaef16511e69852e8b1fcf1b188",
-      "name": "A"
+      "name": "A",
+      "rightAngel": 37,
+      "leftAngel":42
     },
     "grabbable": true,
     "grabbed": false,
@@ -23,7 +25,9 @@
     "data": {
       "id": "d82aefaff16511e69691e8b1fcf1b188",
       "idInt": "d82aefaff16511e69691e8b1fcf1b188",
-      "name": "B"
+      "name": "B",
+      "rightAngel": 58,
+      "leftAngel":107
     },
     "grabbable": true,
     "grabbed": false,
@@ -42,7 +46,9 @@
     "data": {
       "id": "d82aefb0f16511e68e77e8b1fcf1b188",
       "idInt": "d82aefb0f16511e68e77e8b1fcf1b188",
-      "name": "C"
+      "name": "C",
+      "rightAngel": 28,
+      "leftAngel":100
     },
     "grabbable": true,
     "grabbed": false,
@@ -61,7 +67,9 @@
     "data": {
       "id": "d82aefb1f16511e6a024e8b1fcf1b188",
       "idInt": "d82aefb1f16511e6a024e8b1fcf1b188",
-      "name": "D"
+      "name": "D",
+      "rightAngel": 158,
+      "leftAngel":0
     },
     "grabbable": true,
     "grabbed": false,
@@ -80,7 +88,9 @@
     "data": {
       "id": "d82aefb1f16511e6a024e8b1fcf1b188",
       "idInt": "d82aefb1f16511e6a024e8b1fcf1b188",
-      "name": "E"
+      "name": "E",
+      "rightAngel": 18,
+      "leftAngel":12
     },
     "grabbable": true,
     "grabbed": false,
@@ -102,7 +112,8 @@
       "intn": true,
       "source": "d82aefaef16511e69852e8b1fcf1b188",
       "target": "d82aefaff16511e69691e8b1fcf1b188",
-      "weight": 0.1
+      "weight": 0.1,
+           "label":"A"
     },
     "grabbable": false,
     "grabbed": false,
@@ -123,7 +134,8 @@
       "intn": true,
       "source": "d82aefaef16511e69852e8b1fcf1b188",
       "target": "d82aefb1f16511e6a024e8b1fcf1b188",
-      "weight": 0.1
+      "weight": 0.1,
+       "label":"B"
     },
     "grabbable": false,
     "grabbed": false,
@@ -144,7 +156,8 @@
       "intn": true,
       "source": "d82aefb1f16511e6a024e8b1fcf1b188",
       "target": "d82aefb0f16511e68e77e8b1fcf1b188",
-      "weight": 0.1
+      "weight": 0.1,
+      "label":"C"
     },
     "grabbable": false,
     "grabbed": false,
@@ -165,7 +178,8 @@
       "intn": true,
       "source": "d82aefaff16511e69691e8b1fcf1b188",
       "target": "d82aefb0f16511e68e77e8b1fcf1b188",
-      "weight": 0.1
+      "weight": 0.1,
+      "label":"D"
     },
     "grabbable": false,
     "grabbed": false,
@@ -186,7 +200,8 @@
       "intn": true,
       "source": "d82aefaef16511e69852e8b1fcf1b188",
       "target": "d82aefb0f16511e68e77e8b1fcf1b188",
-      "weight": 0.1
+      "weight": 0.1,
+      "label": "E"
     },
     "grabbable": false,
     "grabbed": false,
